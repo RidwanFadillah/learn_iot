@@ -1,0 +1,23 @@
+# Abaikan folder libraries eksternal
+libraries/
+
+# Abaikan hasil compile dan file temporer Arduino
+**/build/
+**/bin/
+**/.pio/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+*.a
+*.eep
+*.lss
+
+# Abaikan file log atau file sistem operasi
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
